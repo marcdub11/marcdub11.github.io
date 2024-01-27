@@ -1,17 +1,20 @@
 *{
     font-family: Arial, Verdana, Tahoma;
+    color: white;
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 body{
-    background-color: antiquewhite;
+    background-image: url(StarsBackground.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
     height: 4rem;
     padding: .5rem;
     margin: .5rem;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,15 +45,31 @@ nav{
     font-weight: bold;
     padding: 1rem;
 }
+.nav_list a{
+    text-decoration: none;
+}
 main{
     padding: .5rem;
     margin: .5rem;
     height: 47rem;
-    background-color: blue;
+}
+main h1{
+    padding: .5rem;
+    margin: .5rem;
+}
+main h2{
+    padding: .5rem;
+    margin: .5rem;
+}
+article .p1{
+    padding: .5rem;
+    margin: .5rem;
+    width: 30%;
 }
 
 .project_area{
     display:grid;
+    transform:translateY(100%);
     justify-content: center;
     width: 100%;
 }
@@ -63,7 +82,6 @@ footer{
     height: 4rem;
     padding: .5rem;
     margin: .5rem;
-    background-color: green;
 }
 footer h3{
     display: flex;
@@ -75,6 +93,11 @@ footer h3{
     list-style: none;
 }
 .footer_list li{
-    padding: 1rem;
-    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.blog_post{
+    width: 50%;
 }
