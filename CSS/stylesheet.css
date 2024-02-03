@@ -68,12 +68,13 @@ article .p1{
 }
 
 .project_area{
+    margin:auto;
     display:grid;
-    transform:translateY(100%);
     justify-content: center;
-    width: 100%;
+    width: 50%;
 }
 .project_area div{
+    margin:auto;
     width: 33%;
 }
 footer{
@@ -100,4 +101,22 @@ footer h3{
 }
 .blog_post{
     width: 50%;
+}
+ul.no_bullets{
+    list-style-type: none;
+}
+.blog_section{
+    margin: auto;   
+    width: 50%;
+}
+.homelab_section{
+    display: flex;
+}
+.homelab_section article{
+    margin-left: 5rem;
+    padding: 1rem;
+}
+.blog_section h1{
+    padding: 0;
+    margin: 0;
 }
