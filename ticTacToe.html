@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Home Lab</title>
+        <title>Tic Tac Toe</title>
         <link rel="stylesheet" href="CSS/stylesheet.css">
     </head>
     <body>
@@ -17,25 +17,24 @@
             </nav>
         </header>
         <main>
-            <h1>Home Lab</h1>
-            <section class="homelab_section">
-                <img src="IMG/serverPhoto.jpg" alt="Picture of Server" style="width:500px;height:700px;">
-                <img src="IMG/firewall.jpg" alt="Picture of Firewall" style="width:500px;height:500px;">
-                <article>
-                <h3>Specs</h3>
-                <ul>
-                    <li>Dell Poweredge R630</li>
-                    <li>VEVOR 12U Open Frame Server Rack</li>
-                    <li>2 E5-2695 processors</li>
-                    <li>256GB ram</li>
-                    <li>2 480gb SSD</li>
-                    <li>Protectli Vault</li>
+            <h1>Tic Tac Toe</h1>
+            <h2 id="player">Player 1 Turn</h2>
+            <section class="tic_tac_toe">
+                <ul class="no_bullets">
+                    <li><button id="box0">Click</button></li>
+                    <li><button id="box1">Click</button></li>
+                    <li><button id="box">Click</button></li>
                 </ul>
-                <br>
-                <p>
-                    Currently I have Proxmox Virtual Environment installed on the dell poweredge and I have OPNSense installed on the Protectli.
-                </p>
-                </article>
+                <ul class="no_bullets">
+                    <li><button id="box">Click</button></li>
+                    <li><button id="box">Click</button></li>
+                    <li><button id="box">Click</button></li>
+                </ul>
+                <ul class="no_bullets">
+                    <li><button id="box">Click</button></li>
+                    <li><button id="box">Click</button></li>
+                    <li><button id="box">Click</button></li>
+                </ul>
             </section>
         </main>
         <footer>
@@ -46,6 +45,6 @@
                 <a href="https://github.com/marcdub11" target="_blank" rel="noopener noreferrer"><li>GitHub</li></a>
             </ul>
         </footer>
-        <script src="index.js"></script>
+        <script src="JS/TicTacToe.js"></script>
     </body>
 </html>

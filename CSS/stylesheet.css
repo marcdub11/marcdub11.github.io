@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(StarsBackground.jpg);
+    background-image: url(starsBackground.jpg);
     background-color: black;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -120,4 +120,29 @@ ul.no_bullets{
 .blog_section h1{
     padding: 0;
     margin: 0;
+}
+.tic_tac_toe{
+    height: 36rem;
+    width: 36rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.tic_tac_toe ul{
+    display: grid;
+    width: 12rem;
+    height: 36rem;
+}
+.tic_tac_toe li{
+    width: 12rem;
+    height: 12rem;
+    background-color: white;
+    border: 1px solid black;
+}
+.tic_tac_toe button{
+    width: 12rem;
+    height: 12rem;
+    font-size: 60pt;
+    color: black;
+    cursor: pointer;
 }
