@@ -54,60 +54,6 @@ main{
     height: 80%;
     padding: .5em;
 }
-.index{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-main h1{
-    padding: .5em;
-}
-main h2{
-    padding: .5em;
-}
-article{
-    width: 30%;
-    padding: .5em;
-    padding-left: 2rem;
-}
-article .p1{
-    padding: .5em;
-}
-.project_area{
-    width: 50%;
-    padding: 1rem;
-    display:grid;
-    justify-content: center;
-}
-.project_area h1{
-    display: flex;
-    justify-content: center;
-}
-.projects{
-    padding: .5rem;
-    display:flex;
-    justify-content: center;
-}
-.projects div{
-    width: 15rem;
-    height: 20rem;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 20px;
-    border-style:inset;
-    border-color: black;
-    background-color: grey;
-}
-.project_area h3, p{
-    padding: .5rem;
-    display: flex;
-    justify-content: center;
-}
-.scroll{
-    padding: .5rem;
-    display: flex;
-    justify-content: center;
-}
 footer{
     height: 10%;
     padding: .5em;
@@ -127,10 +73,72 @@ footer h3{
     padding-left: 1em;
     padding-right: 1em;
 }
+main.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index article{
+    width: 30%;
+    padding: .5em;
+    padding-left: 2rem;
+}
+.index article .p1{
+    padding: .5em;
+}
+.index .project_area{
+    width: 50%;
+    padding: 1rem;
+    display:grid;
+    justify-content: center;
+}
+.index .project_area h1{
+    display: flex;
+    justify-content: center;
+}
+.index .projects{
+    padding: .5rem;
+    display:flex;
+    justify-content: center;
+}
+.index .projects div{
+    width: 15rem;
+    height: 20rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 20px;
+    border-style:inset;
+    border-color: black;
+    background-color: grey;
+}
+.index .project_area h3{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.index .project_area p{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+.index .scroll{
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+}
+main h1{
+    padding: .5em;
+}
+main h2{
+    padding: .5em;
+}
 .blog_post{
     width: 50%;
 }
-ul.no_bullets{
+.blog_section h1{
+    padding: 0;
+}
+.blog ul.no_bullets{
     list-style-type: none;
 }
 .blog{
@@ -150,8 +158,41 @@ ul.no_bullets{
     padding: 1em;
     width: 30em;
 }
-.blog_section h1{
-    padding: 0;
+.cyber article{
+    padding: 3em;
+    padding-top: 1em;
+}
+.cyber h2{
+    padding: 1em;
+}
+.cyber h3{
+    padding: 1em;
+    padding-left: 2em;
+}
+.cyber ul{
+    padding: 1em;
+    padding-left: 4em;
+}
+.cyber .section_1{
+    display: flex;
+}
+.cyber .section_1 div{
+    width: 50%;
+}
+.cyber .section_2{
+    display:flex;
+}
+.cyber .section_2 div{
+    width: 50%;
+}
+.cyber .rshelltext{
+    display:grid;
+    justify-content: center;
+}
+.rshelltext h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .tic_tac_toe{
     display: flex;
