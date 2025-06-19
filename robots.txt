@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://marcdub11.github.io/al-folio/sitemap.xml
+Sitemap: https://marcdub11.github.io/sitemap.xml
