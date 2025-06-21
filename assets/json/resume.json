@@ -45,17 +45,17 @@
   "certificates": [
     {
       "name": "CompTIA A+",
-      "date": "2018-01-01",
+      "date": "2024-04-01",
       "issuer": "CompTIA"
     },
     {
       "name": "CompTIA Network+",
-      "date": "2018-01-01",
+      "date": "22024-04-01",
       "issuer": "CompTIA"
     },
     {
       "name": "CompTIA Security+",
-      "date": "2018-01-01",
+      "date": "2024-04-01",
       "issuer": "CompTIA"
     }
   ],
