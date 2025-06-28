@@ -14,6 +14,6 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/HtWcDfXYwYA" width="560" height="315" title="Home Lab" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/HtWcDfXYwYA" width="560" height="315" title="Home Lab" class="rounded z-depth-1" %}
     </div>
 </div>
