@@ -53,8 +53,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-have-scrappped-the-orginal-portfolio-site-and-have-started-building-a-new-on-with-the-al-folio-jekyll-template",
-          title: 'I have scrappped the orginal Portfolio site and have started building a new...',
+            },},{id: "news-i-have-scrapped-the-orginal-portfolio-site-and-have-started-building-a-new-one-with-the-al-folio-jekyll-template",
+          title: 'I have scrapped the orginal Portfolio site and have started building a new...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
