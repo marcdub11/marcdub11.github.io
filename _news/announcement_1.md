@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have scrappped the orginal Portfolio site and have started building a new on with the al-folio Jekyll template.
+I have scrapped the orginal Portfolio site and have started building a new one with the al-folio Jekyll template.
